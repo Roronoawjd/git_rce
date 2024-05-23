@@ -29,11 +29,9 @@ test_config_global protocol.file.allow always &&
 test_config_global core.symlinks true &&
 tell_tale_path="$PWD/tell.tale" &&
 ```
-해당 스크립트는 Git 구성 옵션을 설정한다. protocol.file.allow always를 통해 Git의 파일 프로토콜을 활성화 한다.
-
-core.symlinks true를 설정하여 심볼릭 링크 사용을 허용한다.
-
-tell_tale_path는 RCE가 제대로 잘 작동됬는지 확인하는데 사용한다.
+- 해당 스크립트는 Git 구성 옵션을 설정한다. protocol.file.allow always를 통해 Git의 파일 프로토콜을 활성화 한다.
+- core.symlinks true를 설정하여 심볼릭 링크 사용을 허용한다.
+- tell_tale_path는 RCE가 제대로 잘 작동됬는지 확인하는데 사용한다.
 
 ### 2. hook 설정
 ```sh
