@@ -50,9 +50,9 @@ git init hook &&
   git commit -m post-checkout
 ) &&
 ```
-1. hook 레퍼지토리를 초기화 한다.
-2. post-checkout이라는 hook을 생성
-3. hook 스크립트를 저장소에 커밋
+- hook 레퍼지토리를 초기화 한다.
+- post-checkout이라는 hook을 생성
+- hook 스크립트를 저장소에 커밋
 
 ### 3. 메인 저장소 설정
 ```sh
