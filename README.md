@@ -4,7 +4,6 @@
 <br/>
 
 -   [이정우@Roronoawjd](https://github.com/Roronoawjd)
-<br/>
 
 ## 배경 설명
 해당 취약점은 대소문자를 구분하지 않는 Windows, MacOS와 같은 파일 시스템에서 submodule을 포함하는 git 저장소를 clone할 때 발생하는 `RCE(Remote Code Execution)` 취약점이다. RCE는 원격 코드 실행 취약점으로 공격자가 대상 시스템에서 원하는 명령어를 실행할 수 있는 아주 치명적인 취약점이다.
